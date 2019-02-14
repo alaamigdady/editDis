@@ -7,10 +7,10 @@ it conains :
 ## index.php :
 a simple webpage to navigate to hamming or levenshien method.
 
-to run this file using php built-in server :
-	1. navigte to directory containing the file from your terminal.
-	2. run ```php -S localhost:8000``` command.
-	3. navigate to localhost:8000 in your browser.
+to run this file using php built-in server :</br>
+	1. navigte to directory containing the file from your terminal.</br>
+	2. run ```php -S localhost:8000``` command.</br>
+	3. navigate to localhost:8000 in your browser.</br>
 
 ## lev_inputs.php :
 a simple web page to enter strings you want calculate distance between using levenshtien method.

@@ -1,4 +1,4 @@
-# editDis
+# editDistance
 
 This repository is created to calculate the distnace between two strings, using both hamming and levenshtien methods.
 
@@ -28,15 +28,15 @@ hamming method implementation.
 by runnig this file from your command line, you will be able to enter two strings and calculate the distance using
 levenshtine method.
 
-to run this file from your cmd :
-	1. navigte to directory containing the file.
-	2. run ``` php cmd.php ``` command.
+to run this file from your cmd :</br>
+	1. navigte to directory containing the file.</br>
+	2. run ``` php cmd.php ``` command.</br>
 
 ## test.php :
 this file requires both levenshtien and hamming classes and perform some tests on them.
 
-to run this file from your cmd :
-	1. navigte to directory containing the file.
+to run this file from your cmd :</br>
+	1. navigte to directory containing the file.</br>
 	2. run ``` php test.php ``` command.
 
 

@@ -7,23 +7,9 @@
 <html>
 	<head>
 		<title>Hamming Distance</title>
-	</head>
+		<link href="./styles.css" media="screen" rel="stylesheet" type="text/css" />
 
-	<style>
-		body{
-			background-color:DarkCyan;
-			height:100%;
-			display:table-cell; 
-			text-align:center; 
-			vertical-align:middle;
-			color:LightGoldenRodYellow;
-		}
-	 html{
-		 height:100%;
-		 display:table; 
-		 width:100%;
-		}
-	</style>
+	</head>
 
 	<body>
 		      
@@ -31,8 +17,7 @@
 		<h1 style="color:SaddleBrown;"> Hamming  Distsance </h1>
 		<br>
 		<br>
-		<!––	create a form to get the value of the strings from the user, and do the calcultion on submit
-			 ––>
+		<!––	create a form to get the value of the strings from the user, and do the calcultion on submit ––>
 		<form action="" method="get">
 			<input placeholder='first string' type='text' name="ham_str1" />
 			<input placeholder= 'second sring' type ='text' name ="ham_str2" />

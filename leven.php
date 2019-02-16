@@ -7,7 +7,6 @@ in order to achieve this, the dynamic programming approch is used.
 */
 class Levenshtein {
 
-	private $count=0;              // distance counter
 	private $str1 ;                // first string
 	private $str2 ;                // second string
 
@@ -20,8 +19,7 @@ class Levenshtein {
 
     public static function helper ($str1,$str2){
     	$levenshtien = new Levenshtein($str1,$str2); // instantiate a new object
-    	$levenshtien->calculateDistnace();
-    	return $levenshtien->count;
+    	return $levenshtien->calculateDistnace();
     }
 
 	private function calculateDistnace (){
@@ -51,9 +49,6 @@ class Levenshtein {
 				}
 			}
 		}
-
-		// the final result will be the last element of the 2-D array
-		$this->count = $arr[strlen($this->str2)][strlen($this->str1)];
 
 		// return the operations applied on the string , using the same approch
 		$m = strlen($this->str1);
@@ -99,6 +94,10 @@ class Levenshtein {
 		}
 
 	echo $result;
+
+	// the final result will be the last element of the 2-D array
+
+	return $arr[strlen($this->str2)][strlen($this->str1)];
 	}
 }
 

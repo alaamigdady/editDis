@@ -4,7 +4,6 @@
 operation allowed */
 class Hamming {
 
-	private $count=0; // distance counter
 	private $str1 ;   // first string
 	private $str2 ;	  // second string
 
@@ -16,8 +15,7 @@ class Hamming {
 
     public static function helper ($str1,$str2){
     	$hamming = new Hamming($str1,$str2); // instatiate a new object
-    	$hamming->calculateDistnace();
-    	return $hamming->count;
+    	return $hamming->calculateDistnace();
     }
 
 	private function calculateDistnace (){
@@ -28,13 +26,16 @@ class Hamming {
 			$this->str2 = str_pad($this->str2,strlen($this->str1)," ");
 
 		}
+		
+		$count=0; //distane counter 
+
 		//check for different characters in the strings, if yes increment the counter
 			for($i=0; $i<strlen($this->str1);$i++){
 			if($this->str1[$i] !== $this->str2[$i]){
-				$this->count = $this->count +1;
+				$count = $count +1;
 			}
 		}
-		return $this->count;		
+		return $count;		
 	}
 }
 

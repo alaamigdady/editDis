@@ -1,13 +1,14 @@
-body{
-			background-color:DarkCyan;
-			height:100%;
-			display:table-cell; 
-			text-align:center; 
-			vertical-align:middle;
-			color:LightGoldenRodYellow;
-		}
-	 html{
-		 height:100%;
-		 display:table; 
-		 width:100%;
-		}
+body {
+	background-color:DarkCyan;
+	height:100%;
+	display:table-cell; 
+	text-align:center; 
+	vertical-align:middle;
+	color:LightGoldenRodYellow;
+	}
+	 
+html {
+	 height:100%;
+	 display:table; 
+	 width:100%;
+	}

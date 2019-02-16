@@ -23,13 +23,13 @@
 	
 		<div style="width: 650px;">
 
-			<div style="float:left; margin-left: 350px;">
+			<div style="float:left; margin-left: 300px;">
 				<form action="lev_inputs.php">
 					<input type="submit" value ="Levenshtien Distance" />
 				</form>
 			</div>
 
-			<div style="float:right;   margin-left: 20px;">
+			<div style="float:right;   margin-left: 10px;">
 				<form action = "ham_inputs.php">
 					<input type="submit" value = "Hamming Distance"/>
 			    </form>

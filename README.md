@@ -33,11 +33,11 @@ to run this file from your cmd :</br>
 	2. run ``` php cmd.php ``` command.</br>
 
 ## test.php :
-this file requires both levenshtien and hamming classes and perform some tests on them.
+this file requires both levenshtien and hamming classes and perform some tests on them using phpunit testing tool.
 
 to run this file from your cmd :</br>
 	1. navigte to directory containing the file.</br>
-	2. run ``` php test.php ``` command.
+	2. run ``` phpunit test.php ``` command.
 
 
 
